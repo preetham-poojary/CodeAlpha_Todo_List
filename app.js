@@ -64,9 +64,4 @@ function EditInfo(id) {
 function DeleteInfo(id) {
    userArray.splice(id, 1);
    SaveInfo(userArray);
-
-   if(prompt("Do you want to delete this task" != yes)) {
-      alert("we can't delete this task");
-   };
-   DeleteInfo();
 };
